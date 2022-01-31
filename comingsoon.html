@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon   |Modou</title>
+    <link href="comingsoon.css">
+<script>
+        $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+</script>
+<style>
+/*NAVIGATION*/
+
+
+.logobox{
+    background-color: #8A716A;
+  width: 290px;
+  height: 120px;
+  z-index: 1;
+   position: fixed;
+   color: #8A716A;
+   margin-top: 0;
+   margin-left: 20px;
+   opacity: 0.85;
+   
+  
+   
+   
+}
+ 
+ #logo{
+    margin-top: 30px;
+    margin-left: 60px;
+     position: fixed;
+     z-index: 2;
+    
+ }
+
+
+
+
+/* PARALLAX */
+    
+
+       body, html {
+       height: 100%;
+       margin: 0;
+       font: 400 15px/1.8 "Lato" , sans-serif;
+       color: #001524;
+   }
+   .bgimg-1, .bgimg-2, .bgimg-3 {
+       position: relative;
+       opacity: 0.8;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .bgimg-1 {
+     
+       background-image: url("bgimg1.jpeg");
+       min-height: 100%;
+   }
+   .bgimg-2 {
+       background-image: url("bgimg2.jpeg");
+       min-height: 400px;
+   }
+   .bgimg-3 {
+       background-image: url("bgimg3.jpeg");
+       min-height: 400px;
+   }
+   .caption {
+      
+       position: absolute;
+       left: 0;
+       top: 50%;
+       width: 100%;
+       text-align: center;
+       color: #FFFFFF;
+   }
+   .caption span.border {
+       background-color: #2B4141;
+       color: white;
+       padding: 20px;
+       font-size: 30px;
+       letter-spacing: 10px;
+   }
+   h3 {
+       letter-spacing: 5px;
+       text-transform: uppercase;
+       font: 20px "Lato", sans-serif;
+       color: #8A716A;
+   }
+   /* turn off parallax scrolling for tablets and phones*/
+   @media only screen and (max-device-width: 1024px) {
+       .bgimg-1, .bgimg-2, .bgimg-3 {
+           background-attachment: scroll;
+       }
+   }
+</style>
+</head>
+<body>
+   <p class="logobox">
+   Hello
+   </p>
+   <a href="file:///C:/Users/bianc/Documents/coding/selflearn/neat/project/homepage/homepage.html"><img id="logo" src="Logocrop.png"></a>
+       
+<!-- PARALLAX -->
+    
+    <div class="bgimg-1">
+        <div class="caption">
+        <span class="border"><b>COMING SOON!</b></span>
+    </div>
+</div>
+<div style="color: #8A716A;background-color: #C2B8B2;text-align: center;padding:50px 80px;text-align: justify;">
+<h3 style="text-align: center;">Modou Designer Clothing</h3>
+<p>
+    Modou  is an Italian fashion label founded in 1921 by Modou Mono,
+     making it one of the oldest Italian fashion brands in operation today. 
+     Like many historic fashion houses, the brand started out as a luggage manufacturer,
+      producing luxury travel goods for Italy's wealthy upper-classes,
+       as well as equestrian equipment.
+       Initially the brand produced primarily leather goods,
+        as well as premium knitwear, silk goods, shoes and handbags.
+         During the second world war, material constraints owing to the war effort 
+         forced the label to use cotton to create their goods. It was during this time 
+         that the label introduced its distinctive “Double-M” monogram, as well as the
+          now iconic Modou stripe, consisting of two gold stripes interrupted by a single
+           red bar.
+           From the 1950s onwards, Modou experienced incredible success as a label of choice amongst 
+           wealthy travellers, Hollywood stars and other well-heeled shoppers,
+            renowned for its extravagant, opulent designs. Modou Mono passed away in 1953, but
+             the business continued under the leadership of his three sons, Aldo, Vasco and 
+             Rodolfo, In the mid-‘60s, the brand introduced luxury accessories such as
+              eyewear, watches and jewelry to their product line; items which have since become
+              a cornerstone of the label.
+</p>
+</div>
+<div class="bgimg-2">
+    <div class="caption">
+        <span class="border" style="background-color: transparent;font-size: 25px;color: #2F131E;"><b>LUXURIOUS</b></span>
+    </div>
+</div>
+<div style="position: relative;">
+    <div style="color: #C2B8B2;background-color: #2F131E;text-align: center;padding: 50px 80px;text-align: justify;">
+        <p>Alessandro Michele is the current creative designer for Modou, having previously worked alongside Fendi before being recruited by Tom Ford in 2002.</p>
+    </div>
+</div>
+<div class="bgimg-3">
+    <div class="caption">
+        <span class="border" style="background-color: transparent;font-size: 25px;color:#2F131E;"><b>INFLUENTIAL</b></span>
+    </div>
+</div>
+<div style="position: relative;">
+    <div style="color: #C2B8B2;background-color: #2F131E;text-align: center;padding: 50px 80px;text-align: justify;">
+        <p>Currently Modou is owned by the French luxury group Kering. In addition to Gucci, Kering and its proprietor Francois Pinault also own Yves Saint Laurent, Balenciaga and Alexander McQueen.</p>
+    </div>
+</div>
+<div class="bgimg-1">
+    <div class="caption">
+        <span class="border">LAUNCHING 31/02/2022</span>
+    </div>
+</div>
+    
+    
+</body>
+</html>
